@@ -1,0 +1,10 @@
+[package]
+name = "tmp_axum_casbin_example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = "0.8.4"
+axum-casbin = { git = "https://github.com/mcitem/axum-casbin.git" }
+tokio = { version = "1.46.1", features = ["full"] }
+tower = "0.5.2"
